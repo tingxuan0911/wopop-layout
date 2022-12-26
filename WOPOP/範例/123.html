@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOPOP</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/icon.jpg">
+    <!-- icon CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            main {
+    background-color: #F6F6F6;
+}
+
+#main-row {
+    margin-top: 10px;
+    margin: 0 auto;
+    max-width: 2000px;
+}
+
+.main-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.main-col {
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 655px;
+    height: 150px;
+    background-color: white;
+
+
+}
+
+.main-col:hover {
+    box-shadow: 2px 2px 10px rgb(202, 202, 202);
+}
+
+.main-col a {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.col-right img {
+    width: 160px;
+    height: 150px;
+}
+
+.col-left-p1 {
+    font-weight: bolder;
+}
+
+.col-left-p2 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.col-left p {
+    margin: 20px 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 350px;
+    text-overflow: ellipsis;
+}
+
+.main-row-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 85px 0 80px 0px;
+
+
+}
+
+.main-row-more a {
+    text-decoration: none;
+}
+
+.main-row-more p {
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
+.main-row-more img {
+    width: 50px;
+    cursor: pointer;
+}
+        </style>
+
+</head>
+
+<body>
+        <section id="main-row">
+            <div class="main-row">
+                <div class="main-col">
+                    <a href="">
+                        <div class="col-right">
+                            <img src="https://finance-003-pic6.eznetonline.com/upload/templatefiles/N12.jpg" alt="">
+                        </div>
+                        <div class="col-left">
+                            <p class="col-left-p1">Explore the docking channels between small loan companies and
+                                multi-level capital markets</p>
+                            <p class="col-left-p2">Apr 7th. 2021</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-col">
+                    <a href="">
+                        <div class="col-right">
+                            <img src="https://finance-003-pic6.eznetonline.com/upload/templatefiles/N11.jpg" alt="">
+                        </div>
+                        <div class="col-left">
+                            <p class="col-left-p1">Deregulation + endogenous power: asset securitization is entering the
+                                fast lane</p>
+                            <p class="col-left-p2">Apr 7th. 2021</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-col">
+                    <a href="">
+                        <div class="col-right">
+                            <img src="https://finance-003-pic6.eznetonline.com/upload/templatefiles/N10.jpg" alt="">
+                        </div>
+                        <div class="col-left">
+                            <p class="col-left-p1">Private placement entered the "bull market" ahead of schedule, with
+                                double harvest of performance and strength</p>
+                            <p class="col-left-p2">Apr 7th. 2021</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-col">
+                    <a href="">
+                        <div class="col-right">
+                            <img src="https://finance-003-pic6.eznetonline.com/upload/templatefiles/N9.jpg" alt="">
+                        </div>
+                        <div class="col-left">
+                            <p class="col-left-p1">New coordinates of the world economic crisis: from London to China,
+                                the higher the skyscraper, the higher the crisis</p>
+                            <p class="col-left-p2">Apr 7th. 2021</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="main-row-more">
+                <p>Click to see more</p>
+                <img class="js-btn"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCI+PGcgZGF0YS1uYW1lPSLnu4QgMTU3MCIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgOTk5IC01NDEpIj48Y2lyY2xlIGRhdGEtbmFtZT0i5qSt5ZyGIDEzIiBjeD0iMjUiIGN5PSIyNSIgcj0iMjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE1NDAgNDA4KSIvPjxnIGRhdGEtbmFtZT0i57uE5Lu2IDMg4oCTIDEwIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggZGF0YS1uYW1lPSLogZTlkIggMyIgZD0iTTE1NjcgNDI2bDcuMDcxIDcuMDcyem0wIDE0LjE0M2w3LjA3MS03LjA3MXoiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkYXRhLW5hbWU9IuebtOe6vyA3IiBzdHJva2UtbGluZWNhcD0icm91bmQiIGQ9Ik0xNTU1IDQzMy4xNDNoMTgiLz48L2c+PC9nPjwvc3ZnPg=="
+                    alt="">
+
+            </div>
+        </section>
+    
+  
+
+
+    <script>
+        var mainRow = document.querySelector('.main-row')
+        var jsBtn = document.querySelector('.js-btn')
+
+        // jsBtn.onclick = function () {
+        //     for (let index = 0; index <= 2; index++) {
+        //         var mainRowMore = document.querySelector('.main-row-more')
+        //         if (index < 2) {
+        //             document.querySelector(".main-row-more").style.display="none";//隱藏
+        //         }else{
+        //             return;
+        //         }
+        //     }
+        // }
+
+        var clickCount = 0;
+
+        jsBtn.onclick = function () {
+            clickCount++;
+            if (clickCount == 2) document.querySelector(".main-row-more").style.display = "none";
+            let str = '';
+            for (let index = 0; index < 4; index++) {
+                str += `<div class="main-col">
+                            <a href="">
+                                <div class="col-right">
+                                    <img src="https://finance-003-pic6.eznetonline.com/upload/templatefiles/N12.jpg" alt="">
+                                </div>
+                                <div class="col-left">
+                                    <p class="col-left-p1">Explore the docking channels between small loan companies and multi-level capital markets</p>
+                                    <p class="col-left-p2">Apr 7th. 2021</p>
+                                </div>
+                            </a>
+                        </div>`;
+            }
+            mainRow.innerHTML = mainRow.innerHTML + str;
+            // for (let index = 0; index < 4; index++) {
+            //     mainRow.innerHTML = mainRow.innerHTML +
+            //         ` <div class="main-col">
+            //         <a href="">
+            //         <div class="col-right">
+            //         <img src="https://finance-003-pic6.eznetonline.com/upload/templatefiles/N12.jpg" alt="">
+            //         </div>
+            //         <div class="col-left">
+            //         <p class="col-left-p1">Explore the docking channels between small loan companies and multi-level capital markets</p>
+            //         <p class="col-left-p2">Apr 7th. 2021</p>
+            //         </div>
+            //         </a>
+            //         </div>`
+            // } for (let index = 0; index <= 3; index++) {
+            //     var mainRowMore = document.querySelector('.main-row-more')
+                // if (index < 3 ) {
+                //     document.querySelector(".main-row-more").style.display="none";//隱藏
+                // }
+            // }
+        }
+
+    </script>
+</body>
+
+</html>
